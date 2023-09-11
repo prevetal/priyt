@@ -1,0 +1,276 @@
+@media (max-width: 479px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .block_title
+    {
+        font-size: 24px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .page_title
+    {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header
+    {
+        padding: 45px 0 15px;
+    }
+
+
+
+    header .logo
+    {
+        width: 170px;
+    }
+
+
+
+    header .phone
+    {
+        font-size: 22px;
+
+        top: -35px;
+    }
+
+
+    header .socials
+    {
+        top: 0;
+        right: 15px;
+        left: auto;
+    }
+
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section .head .cont
+    {
+        height: auto;
+        padding-top: 170px;
+        padding-bottom: 50px;
+    }
+
+    .first_section .head .title
+    {
+        font-size: 32px;
+        line-height: 34px;
+    }
+
+
+    .first_section .about .title
+    {
+        font-size: 28px;
+        line-height: 32px;
+    }
+
+
+
+    .help_block .finance .item
+    {
+        width: calc(100% - 27px);
+    }
+
+
+    .help_block .donation form .columns > *.width1of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .help_block .donation form .monthly
+    {
+        width: 100%;
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+
+
+    .emergency .text_block
+    {
+        padding: 15px 15px 0;
+    }
+
+
+
+    .search_house .slider
+    {
+        padding: 0;
+    }
+
+    .search_house .item .info
+    {
+        padding: 15px;
+    }
+
+
+
+    .text_block h1,
+    .text_block .title
+    {
+        font-size: 25px;
+        line-height: 27px;
+    }
+
+    .text_block h2
+    {
+        font-size: 23px;
+        line-height: 25px;
+    }
+
+    .text_block h3
+    {
+        font-size: 21px;
+        line-height: 23px;
+    }
+
+    .text_block h4
+    {
+        font-size: 19px;
+    }
+
+
+    .text_block .gallery .desc
+    {
+        line-height: 20px;
+    }
+
+
+    .text_block blockquote
+    {
+        padding: 15px 15px 15px 60px;
+
+        background-position: 15px 15px;
+    }
+
+
+    .accordion .item .name
+    {
+        font-size: 16px;
+        line-height: 18px;
+
+        padding: 15px 20px;
+    }
+
+    .accordion .item .data
+    {
+        padding: 0 20px;
+    }
+
+
+
+    .feedback
+    {
+        padding: 20px;
+    }
+
+    .feedback .title
+    {
+        font-size: 22px;
+    }
+
+    .feedback .form .line
+    {
+        margin-bottom: 15px;
+    }
+
+
+
+    .form .lines .line
+    {
+        width: calc(100% - 8px);
+    }
+
+
+
+    .animal_info .data .animal_name
+    {
+        font-size: 38px;
+        line-height: 40px;
+    }
+
+
+
+    .articles
+    {
+        margin-bottom: 30px;
+    }
+
+
+
+    .pagination
+    {
+        padding-top: 30px;
+    }
+
+    .pagination a + a
+    {
+        margin-left: 6px;
+    }
+
+    .pagination a.prev,
+    .pagination a.next
+    {
+        display: none;
+    }
+
+
+
+    .filter .submit
+    {
+        width: calc(100% - 15px);
+    }
+
+    .filter .submit_btn
+    {
+        width: 100%;
+    }
+
+
+
+    .animals
+    {
+        margin-bottom: 40px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .contacts .socials
+    {
+        margin-left: 20px;
+    }
+
+    footer .contacts .socials a + a
+    {
+        margin-left: 12px;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

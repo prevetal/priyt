@@ -1,0 +1,397 @@
+@media (max-width: 767px)
+{
+    /*---------------
+        Main styles
+    ---------------*/
+    .page_title
+    {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+
+
+    /*---------------
+        Header
+    ---------------*/
+    header .cont
+    {
+        justify-content: flex-start;
+    }
+
+
+
+    header .menu .menu_item
+    {
+        width: 50%;
+    }
+
+
+    header .socials
+    {
+        top: 36px;
+        right: 90px;
+        left: auto;
+    }
+
+
+
+    /*---------------
+        Sidebar
+    ---------------*/
+
+
+
+    /*---------------
+        Main section
+    ---------------*/
+    .first_section
+    {
+        margin-bottom: 40px;
+    }
+
+    .first_section:before
+    {
+        display: none;
+    }
+
+
+    .first_section .head .cont
+    {
+        height: 500px;
+        padding-top: 120px;
+    }
+
+    .first_section .head
+    {
+        background: #d8f0ff;
+    }
+
+    .first_section .head .title
+    {
+        font-size: 40px;
+        line-height: 45px;
+
+        margin-bottom: 40px;
+    }
+
+    .first_section .head .link
+    {
+        font-size: 18px;
+        line-height: 60px;
+
+        height: 60px;
+    }
+
+
+    .first_section .about
+    {
+        background: #9e8ded;
+    }
+
+    .first_section .about .cont
+    {
+        height: auto;
+        padding: 40px 15px;
+    }
+
+    .first_section .about .title
+    {
+        font-size: 32px;
+        line-height: 36px;
+
+        margin-bottom: 30px;
+    }
+
+    .first_section .about .text
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .first_section .about .text b
+    {
+        font-size: 18px;
+    }
+
+
+
+    .help_block .grid.level1 > .item,
+    .help_block .grid.level1 > .item.middle_w
+    {
+        width: calc(100% - 15px);
+    }
+
+    .help_block .grid.level1 > .item .title
+    {
+        font-size: 16px;
+
+        margin-bottom: 15px;
+    }
+
+
+    .help_block .finance .item
+    {
+        width: calc(100% - 23px);
+        max-width: calc(100% - 23px);
+    }
+
+    .help_block .finance .item .name
+    {
+        margin-bottom: 4px;
+    }
+
+
+    .help_block .donation form .columns > *.width1of3
+    {
+        width: calc(50% - var(--form_columns_offset));
+    }
+
+    .help_block .donation form .columns > *.width2of3
+    {
+        width: calc(100% - var(--form_columns_offset));
+    }
+
+
+    .help_block .donation form .method
+    {
+        margin-left: 12px;
+    }
+
+
+    .help_block .donation form .input.mini
+    {
+        width: 92px;
+    }
+
+
+    .help_block .donation form input[type=checkbox] + label
+    {
+        padding-left: 24px;
+    }
+
+
+
+    .emergency .text_block b
+    {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+
+
+    .search_house .item .foto
+    {
+        width: 100%;
+    }
+
+    .search_house .item .info
+    {
+        width: 100%;
+        padding: 20px;
+
+        text-align: center;
+
+        border-top: none;
+        border-radius: 0 0 3px 3px;
+    }
+
+
+
+    .text_block h1,
+    .text_block .title
+    {
+        font-size: 28px;
+    }
+
+    .text_block h2
+    {
+        font-size: 26px;
+    }
+
+
+    .text_block table
+    {
+        width: 758px;
+    }
+
+    .text_block table th
+    {
+        font-size: 15px;
+        line-height: 20px;
+    }
+
+
+    .text_block .col.left,
+    .text_block .col.right
+    {
+        width: 100%;
+    }
+
+
+    .text_block blockquote.left
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .text_block blockquote.left:before
+    {
+        top: -16px;
+        left: 0;
+
+        border: 8px solid transparent;
+        border-bottom-color: #f2faff;
+        border-left-color: #f2faff;
+    }
+
+
+
+    .feedback
+    {
+        padding: 30px;
+
+        background: #fff;
+    }
+
+    .feedback .title
+    {
+        font-size: 28px;
+
+        margin-bottom: 20px;
+    }
+
+
+
+    .articles .item
+    {
+        width: calc(100% - 15px);
+    }
+
+
+
+    .animal_info .data .animal_name
+    {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+
+
+    .pagination a + a
+    {
+        margin-left: 16px;
+    }
+
+
+
+    .filter .item
+    {
+        width: calc(100% - 15px);
+        margin-bottom: 15px;
+    }
+
+    .filter .item .name
+    {
+        width: 100px;
+    }
+
+    .filter .submit
+    {
+        margin-top: 0;
+    }
+
+
+
+    .animals .animal .foto
+    {
+        margin-bottom: 15px;
+    }
+
+    .animals .animal .info
+    {
+        width: 100%;
+        padding: 0;
+    }
+
+
+
+    .form .reset_btn
+    {
+        margin-bottom: 20px;
+    }
+
+
+
+    /*---------------
+        Footer
+    ---------------*/
+    footer .logo
+    {
+        width: 100%;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+
+    footer .links
+    {
+        width: 100%;
+        margin: 0 0 15px;
+
+                column-count: 3;
+        -webkit-column-count: 3;
+           -moz-column-count: 3;
+    }
+
+    footer .links li a
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .contacts
+    {
+        display: flex;
+
+        width: 100%;
+
+        text-align: center;
+
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        flex-wrap: wrap;
+    }
+
+
+    footer .contacts .socials
+    {
+        margin-left: 30px;
+    }
+
+    footer .contacts .socials a + a
+    {
+        margin-left: 15px;
+    }
+
+    footer .contacts .socials img
+    {
+        width: 24px;
+    }
+
+
+    footer .privacy_policy,
+    footer .creator
+    {
+        width: 100%;
+    }
+
+
+
+    /*---------------
+        PopUp
+    ---------------*/
+}

@@ -1,0 +1,175 @@
+@media (max-width: 1269px)
+{
+    /*---------------
+	    Main styles
+	---------------*/
+    .page_title
+    {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+
+
+    /*---------------
+		Header
+	---------------*/
+
+
+
+    /*---------------
+		Sidebar
+	---------------*/
+
+
+
+    /*---------------
+		Main section
+	---------------*/
+    .first_section .about .title
+    {
+        line-height: 40px;
+    }
+
+    .first_section .about .text
+    {
+        line-height: 28px;
+
+        width: calc(100% - 425px);
+    }
+
+    .first_section .about .block
+    {
+        width: 395px;
+    }
+
+
+
+    .emergency .text_block b
+    {
+        line-height: 26px;
+    }
+
+
+
+    .search_house .slider
+    {
+        width: 100%;
+        margin: 0;
+        padding: 0 50px;
+    }
+
+    .search_house .owl-carousel .owl-nav .owl-prev
+    {
+        left: 0;
+    }
+
+    .search_house .owl-carousel .owl-nav .owl-next
+    {
+        right: 0;
+    }
+
+
+
+    .articles .item .info
+    {
+        line-height: 20px;
+
+        padding: 15px;
+    }
+
+    .articles .item .name a
+    {
+        font-size: 16px;
+    }
+
+
+
+    .animal_info
+    {
+        margin-bottom: 70px;
+    }
+
+
+
+    .filter
+    {
+        margin-bottom: 30px;
+    }
+
+    .filter form
+    {
+        padding-left: 0;
+    }
+
+    .filter .submit
+    {
+        margin-left: 15px;
+    }
+
+
+
+    .animals .grid
+    {
+        margin-bottom: -40px;
+    }
+
+    .animals .animal
+    {
+        width: calc(100% - 20px);
+        margin-bottom: 40px;
+    }
+
+
+
+    .help_block .grid.level1 > .item
+    {
+        padding: 24px;
+    }
+
+
+    .help_block .finance .item
+    {
+        width: calc(25% - 23px);
+    }
+
+
+    .help_block .donation form .method
+    {
+        margin-left: 12px;
+    }
+
+
+    .help_block .donation form .monthly
+    {
+        margin-left: auto;
+    }
+
+
+    .help_block .donation form .input.mini
+    {
+        width: 60px;
+    }
+
+
+    .help_block .donation form input[type=checkbox] + label
+    {
+        padding-left: 24px;
+    }
+
+
+
+    /*---------------
+		Footer
+	---------------*/
+    footer .links
+    {
+        width: 455px;
+    }
+
+
+
+    /*---------------
+		PopUp
+	---------------*/
+}
