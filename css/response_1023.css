@@ -335,6 +335,120 @@
 
 
     /*---------------
+    Advantages
+    ---------------*/
+    .advantages .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .advantages .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(25% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+    .advantages .item
+    {
+        font-size: 18px;
+    }
+
+
+    .advantages .item .icon
+    {
+        height: 92px;
+        margin-bottom: 8px;
+    }
+
+
+
+    /*---------------
+       Pets
+    ---------------*/
+    .pets .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .pets .pet .name
+    {
+        font-size: 16px;
+    }
+
+
+    .pets .pet .desc
+    {
+        font-size: 15px;
+    }
+
+
+    .pets .all_link
+    {
+        margin-top: 40px;
+    }
+
+    .pets .all_link a
+    {
+        font-size: 20px;
+
+        padding: 7px 48px 8px;
+    }
+
+
+
+    /*--------------------
+       What to pick up
+    --------------------*/
+    .what_to_pick_up .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 32px;
+    }
+
+
+    .what_to_pick_up .text_block
+    {
+        font-size: 15px;
+    }
+
+
+    .what_to_pick_up .links
+    {
+        margin-top: 28px;
+    }
+
+
+    .what_to_pick_up .links > * + *
+    {
+        margin-left: 12px;
+    }
+
+
+    .what_to_pick_up .links span
+    {
+        font-size: 15px;
+
+        padding: 9px 28px 10px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer

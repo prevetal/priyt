@@ -318,6 +318,74 @@
 
 
     /*---------------
+    Advantages
+    ---------------*/
+    .advantages .block_title
+    {
+        font-size: 25px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .advantages .row
+    {
+        margin-left: -24px;
+    }
+
+    .advantages .row > *
+    {
+        width: calc(50% - 24px);
+        margin-left: 24px;
+    }
+
+
+    .advantages .item
+    {
+        font-size: 16px;
+    }
+
+
+    .advantages .item .icon
+    {
+        height: 80px;
+    }
+
+
+
+    /*---------------
+       Pets
+    ---------------*/
+    .pets .block_title
+    {
+        font-size: 25px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .pets .all_link a
+    {
+        font-size: 19px;
+
+        padding: 7px 40px 8px;
+    }
+
+
+
+    /*--------------------
+       What to pick up
+    --------------------*/
+    .what_to_pick_up .block_title
+    {
+        font-size: 25px;
+
+        margin-bottom: 28px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .logo

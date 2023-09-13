@@ -62,6 +62,42 @@ $(function(){
 	})
 
 
+	// Ищут дом
+	$('.pets .slider').owlCarousel({
+		loop: true,
+	    dots: false,
+	    nav: true,
+	    navSpeed: 500,
+	    dotsSpeed: 500,
+	    smartSpeed: 500,
+	    autoplaySpeed: 500,
+	    responsive : {
+		    1024 : {
+		        items: 4,
+	    		margin: 15
+		    },
+		    768 : {
+		        items: 3,
+	    		margin: 15
+		    },
+		    0 : {
+		        items: 2,
+	    		margin: 15
+		    }
+		},
+	    onInitialized: function(event){
+			let photoH = $(event.target).find('.photo').outerHeight()
+
+	    	$(event.target).find('.owl-prev, .owl-next').css('top', photoH / 2)
+	    },
+	    onResized: function(event){
+			let photoH = $(event.target).find('.photo').outerHeight()
+
+	    	$(event.target).find('.owl-prev, .owl-next').css('top', photoH / 2)
+	    }
+	})
+
+
 	// Кнопка 'Вверх'
 	$('.buttonUp a').click(function(e) {
 		e.preventDefault()

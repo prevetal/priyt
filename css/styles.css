@@ -2669,6 +2669,351 @@ header .menu .menu_item > a:hover
 
 
 /*---------------
+   Advantages
+---------------*/
+.advantages
+{
+    margin-bottom: 50px;
+}
+
+
+.advantages .block_title
+{
+    color: #292d36;
+    font-family: MuseoSans;
+    font-size: 30px;
+    font-weight: 600;
+
+    margin-bottom: 34px;
+}
+
+
+.advantages .row
+{
+    display: flex;
+
+    margin-bottom: -40px;
+    margin-left: -100px;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.advantages .row > *
+{
+    width: calc(25% - 100px);
+    margin-bottom: 40px;
+    margin-left: 100px;
+}
+
+
+.advantages .item
+{
+    font-family: MuseoSans;
+    font-size: 21px;
+
+    text-align: center;
+}
+
+
+.advantages .item .icon
+{
+    display: flex;
+
+    height: 119px;
+
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.advantages .item .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+/*---------------
+   Pets
+---------------*/
+.pets
+{
+    margin-bottom: 50px;
+}
+
+
+.pets .section + .section
+{
+    margin-top: 50px;
+}
+
+
+.pets .block_title
+{
+    color: #292d36;
+    font-family: MuseoSans;
+    font-size: 30px;
+    font-weight: 600;
+
+    margin-bottom: 26px;
+}
+
+
+.pets .slide
+{
+    display: none;
+}
+
+.pets .owl-loaded .slide
+{
+    display: block;
+}
+
+.pets .owl-carousel .owl-nav .owl-prev
+{
+    top: 0;
+    bottom: auto;
+    left: -46px;
+
+    margin: -19px 0 0;
+}
+
+.pets .owl-carousel .owl-nav .owl-next
+{
+    top: 0;
+    right: -46px;
+    bottom: auto;
+
+    margin: -19px 0 0;
+}
+
+
+.pets .pet
+{
+    color: currentColor;
+    font-family: MuseoSans;
+
+    display: block;
+
+    transition: color .2s linear;
+    text-decoration: none;
+}
+
+
+.pets .pet .photo
+{
+    position: relative;
+
+    overflow: hidden;
+
+    margin-bottom: 16px;
+    padding-bottom: 133.632%;
+
+    background: #ddd;
+}
+
+.pets .pet .photo img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+}
+
+
+.pets .pet .name
+{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+
+.pets .pet .desc
+{
+    font-size: 16px;
+
+    margin-top: 16px;
+}
+
+
+.pets .pet:hover
+{
+    color: #50a5fd;
+}
+
+
+.pets .all_link
+{
+    margin-top: 48px;
+
+    text-align: center;
+}
+
+
+.pets .all_link a
+{
+    color: #fff;
+    font-family: MuseoSans;
+    font-size: 22px;
+    font-weight: 600;
+
+    display: inline-block;
+
+    padding: 7px 53px 8px 52px;
+
+    vertical-align: top;
+    text-decoration: none;
+
+    border-radius: 27px;
+    background: linear-gradient(90deg, #1cabfe 0%, #5de6ff 100%);
+    box-shadow: 0 12px 16px -5px #d4fffe;
+}
+
+.pets .all_link a:hover
+{
+    background: #1aabfe;
+    box-shadow: none;
+}
+
+
+@media (max-width: 1439px)
+{
+    .pets .owl-carousel .owl-nav .owl-prev
+    {
+        left: 0;
+    }
+
+    .pets .owl-carousel .owl-nav .owl-next
+    {
+        right: 0;
+    }
+}
+
+
+
+/*--------------------
+   What to pick up
+--------------------*/
+.what_to_pick_up
+{
+    margin-bottom: 50px;
+}
+
+
+.what_to_pick_up .block_title
+{
+    color: #292d36;
+    font-family: MuseoSans;
+    font-size: 30px;
+    font-weight: 600;
+
+    margin-bottom: 32px;
+}
+
+
+.what_to_pick_up .text_block
+{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.what_to_pick_up .text_block b,
+.what_to_pick_up .text_block strong
+{
+    font-weight: 600;
+}
+
+
+.what_to_pick_up .links
+{
+    display: flex;
+
+    margin-top: 34px;
+
+    justify-content: center;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.what_to_pick_up .links > * + *
+{
+    margin-left: 13px;
+}
+
+
+.what_to_pick_up .links a
+{
+    color: #fff;
+
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+
+.what_to_pick_up .links .icon
+{
+    display: flex;
+
+    height: 82px;
+
+    justify-content: center;
+    align-items: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+}
+
+.what_to_pick_up .links .icon img
+{
+    display: block;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.what_to_pick_up .links span
+{
+    font-family: MuseoSans;
+    font-size: 16px;
+    font-weight: 600;
+
+    display: block;
+
+    width: 100%;
+    padding: 9px 32px 10px;
+
+    border-radius: 27px;
+    background: linear-gradient(90deg, #1cabfe 0%, #5de6ff 100%);
+    box-shadow: 0 12px 16px -5px #d4fffe;
+}
+
+
+.what_to_pick_up .links a:hover span
+{
+    background: #1aabfe;
+    box-shadow: none;
+}
+
+
+
+/*---------------
    Footer
 ---------------*/
 footer
@@ -2810,14 +3155,3 @@ footer .contacts a:hover
 {
     color: #000;
 }
-
-
-
-/*---------------
-   PopUp
----------------*/
-
-
-/* Стили боковой колонки сайта */
-
-/* End Стили боковой колонки сайта */
