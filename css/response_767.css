@@ -384,6 +384,62 @@
     }
 
 
+    .what_to_pick_up .steps
+    {
+        margin-top: 48px;
+        margin-bottom: -32px;
+    }
+
+
+    .what_to_pick_up .sep
+    {
+        display: none;
+    }
+
+
+    .what_to_pick_up .step,
+    .what_to_pick_up .step.middle,
+    .what_to_pick_up .step.big
+    {
+        width: calc(50% - 12px);
+        margin-bottom: 32px;
+    }
+
+
+    .what_to_pick_up .step:nth-last-child(1)
+    {
+        margin-left: auto;
+    }
+
+
+    .what_to_pick_up .step .desc
+    {
+        font-size: 14px;
+    }
+
+
+    .what_to_pick_up .step .thumb
+    {
+        height: 100px;
+        margin-bottom: 20px;
+        padding-left: 0;
+    }
+
+
+    .what_to_pick_up .step .number
+    {
+        font-size: 36px;
+
+        bottom: -6px;
+    }
+
+
+    .what_to_pick_up .step .desc .phone
+    {
+        font-size: 24px;
+    }
+
+
 
     /*---------------
         Footer
@@ -417,15 +473,14 @@
     footer .contacts
     {
         display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
 
         width: 100%;
 
         text-align: center;
-
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-        flex-wrap: wrap;
     }
 
 

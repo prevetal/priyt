@@ -114,11 +114,11 @@
     ---------------*/
     .first_section .head .cont
     {
+        justify-content: center;
+
         padding-top: 140px;
 
         text-align: center;
-
-        justify-content: center;
     }
 
     .first_section .head .title
@@ -132,8 +132,8 @@
 
     .first_section .about .cont
     {
-        align-items: center;
         align-content: center;
+        align-items: center;
     }
 
     .first_section .about .text
@@ -276,10 +276,10 @@
 
     .filter form
     {
+        flex-wrap: wrap;
+
         margin-left: -15px;
         padding: 15px;
-
-        flex-wrap: wrap;
     }
 
     .filter .item
@@ -427,6 +427,70 @@
     }
 
 
+    .what_to_pick_up .steps
+    {
+        margin-top: 60px;
+        margin-bottom: -24px;
+    }
+
+
+    .what_to_pick_up .step
+    {
+        width: 204px;
+        margin-bottom: 24px;
+    }
+
+    .what_to_pick_up .step.middle
+    {
+        width: 224px;
+    }
+
+    .what_to_pick_up .step.big
+    {
+        width: 284px;
+    }
+
+
+    .what_to_pick_up .step:nth-last-child(1)
+    {
+        margin-left: 80px;
+    }
+
+
+    .what_to_pick_up .step:after
+    {
+        display: none;
+    }
+
+
+    .what_to_pick_up .step .desc
+    {
+        font-size: 15px;
+    }
+
+
+    .what_to_pick_up .step .thumb
+    {
+        height: 120px;
+        margin-bottom: 24px;
+        padding-left: 12px;
+    }
+
+
+    .what_to_pick_up .step .number
+    {
+        font-size: 40px;
+
+        bottom: -8px;
+    }
+
+
+    .what_to_pick_up .step .desc .phone
+    {
+        font-size: 25px;
+    }
+
+
     .what_to_pick_up .links
     {
         margin-top: 28px;
@@ -458,8 +522,8 @@
 
     footer .cont
     {
-        align-items: flex-start;
         align-content: flex-start;
+        align-items: flex-start;
     }
 
     footer .links

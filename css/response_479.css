@@ -324,6 +324,22 @@
     }
 
 
+    .what_to_pick_up .steps
+    {
+        margin-top: 40px;
+    }
+
+
+    .what_to_pick_up .step,
+    .what_to_pick_up .step.middle,
+    .what_to_pick_up .step.big
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
 
     /*---------------
         Footer
