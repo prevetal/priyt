@@ -148,6 +148,102 @@
 
 
     /*---------------
+       Fundraising
+    ---------------*/
+    .fundraising .data
+    {
+        height: 248px;
+        padding: 0 48px;
+
+        border-radius: 80px;
+    }
+
+
+    .fundraising .title
+    {
+        font-size: 28px;
+    }
+
+
+    .fundraising .link a
+    {
+        font-size: 18px;
+        line-height: 36px;
+
+        height: 48px;
+        padding: 6px 28px;
+    }
+
+
+    .fundraising .img
+    {
+        right: 136px;
+        bottom: -5px;
+
+        width: 578px;
+    }
+
+
+
+    /*---------------
+       Requisites
+    ---------------*/
+    .requisites .block_title
+    {
+        font-size: 26px;
+    }
+
+
+    .requisites .data
+    {
+        padding: 25px;
+
+        gap: 28px;
+    }
+
+
+    .requisites .method .name
+    {
+        font-size: 18px;
+    }
+
+
+    .requisites .method .name img
+    {
+        width: 88px;
+        height: 88px;
+    }
+
+
+    .requisites .method .name b
+    {
+        font-size: 28px;
+    }
+
+
+    .requisites .method .name span
+    {
+        max-width: calc(100% - 98px);
+    }
+
+
+    .requisites .method .info
+    {
+        font-size: 14px;
+
+        max-width: 338px;
+        padding-left: 98px;
+    }
+
+
+    .requisites .qr_code .logo
+    {
+        width: 148px;
+    }
+
+
+
+    /*---------------
 		Footer
 	---------------*/
     footer .links

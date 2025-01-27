@@ -342,6 +342,67 @@
 
 
     /*---------------
+       Fundraising
+    ---------------*/
+    .fundraising .data
+    {
+        padding: 40px 24px 168px;
+
+        border-radius: 32px;
+    }
+
+
+    .fundraising .title
+    {
+        font-size: 22px;
+    }
+
+
+    .fundraising .link a
+    {
+        font-size: 15px;
+        line-height: 32px;
+
+        height: 44px;
+    }
+
+
+    .fundraising .img
+    {
+        bottom: -2px;
+        left: 24px;
+
+        width: 324px;
+    }
+
+
+
+    /*---------------
+       Requisites
+    ---------------*/
+    .requisites .data
+    {
+        padding: 21px;
+
+        gap: 32px;
+    }
+
+
+    .requisites .method .info
+    {
+        margin-top: 12px;
+        padding-left: 0;
+    }
+
+
+    .requisites .data .bg
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .contacts .socials

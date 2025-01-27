@@ -442,6 +442,99 @@
 
 
     /*---------------
+       Fundraising
+    ---------------*/
+    .fundraising .data
+    {
+        padding: 40px 24px 192px;
+
+        border-radius: 48px;
+    }
+
+
+    .fundraising .title
+    {
+        font-size: 25px;
+    }
+
+
+    .fundraising .link a
+    {
+        font-size: 16px;
+    }
+
+
+    .fundraising .img
+    {
+        bottom: -3px;
+        left: 40px;
+
+        width: 424px;
+    }
+
+
+
+    /*---------------
+       Requisites
+    ---------------*/
+    .requisites .block_title
+    {
+        font-size: 22px;
+    }
+
+
+    .requisites .data
+    {
+        gap: 24px;
+    }
+
+
+    .requisites .method
+    {
+        width: 100%;
+    }
+
+
+    .requisites .method .name
+    {
+        font-size: 16px;
+    }
+
+
+    .requisites .method .name img
+    {
+        width: 68px;
+        height: 68px;
+    }
+
+
+    .requisites .method .name b
+    {
+        font-size: 22px;
+    }
+
+
+    .requisites .method .name span
+    {
+        max-width: calc(100% - 74px);
+    }
+
+
+    .requisites .method .info
+    {
+        padding-left: 74px;
+    }
+
+
+    .requisites .qr_code
+    {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer .logo

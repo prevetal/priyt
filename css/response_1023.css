@@ -513,6 +513,118 @@
 
 
     /*---------------
+       Fundraising
+    ---------------*/
+    .fundraising .data
+    {
+        height: auto;
+        margin-top: 0;
+        padding: 40px 40px 240px;
+
+        border-radius: 68px;
+    }
+
+
+    .fundraising .title
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    .fundraising .title br
+    {
+        display: none;
+    }
+
+
+    .fundraising .title span
+    {
+        display: block;
+    }
+
+
+    .fundraising .link
+    {
+        width: 100%;
+        margin-top: 20px;
+
+        text-align: center;
+    }
+
+
+    .fundraising .link a
+    {
+        font-size: 18px;
+        line-height: 36px;
+
+        height: 48px;
+        padding: 6px 28px;
+    }
+
+
+    .fundraising .img
+    {
+        right: 0;
+        bottom: -4px;
+        left: 68px;
+
+        width: 520px;
+        margin: 0 auto;
+    }
+
+
+
+    /*---------------
+       Requisites
+    ---------------*/
+    .requisites .block_title
+    {
+        font-size: 25px;
+    }
+
+
+    .requisites .data
+    {
+        gap: 32px;
+    }
+
+
+    .requisites .method .name
+    {
+        font-size: 17px;
+    }
+
+
+    .requisites .method .name img
+    {
+        width: 80px;
+        height: 80px;
+    }
+
+
+    .requisites .method .name b
+    {
+        font-size: 25px;
+    }
+
+
+    .requisites .method .name span
+    {
+        max-width: calc(100% - 96px);
+    }
+
+
+    .requisites .method .info
+    {
+        max-width: 100%;
+        padding-left: 96px;
+    }
+
+
+
+    /*---------------
         Footer
     ---------------*/
     footer

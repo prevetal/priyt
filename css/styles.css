@@ -3158,6 +3158,380 @@ header .menu .menu_item > a:hover
 
 
 /*---------------
+   Fundraising
+---------------*/
+.fundraising
+{
+    position: relative;
+    z-index: 100;
+
+    margin-bottom: 68px;
+}
+
+
+.fundraising .data
+{
+    position: relative;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    height: 277px;
+    margin-top: 124px;
+    padding: 0 78px 0 84px;
+
+    border-radius: 112px;
+    background: #e6f6ff;
+    box-shadow: 0 0 4px 0 #d7f0ff;
+}
+
+
+.fundraising .data:before
+{
+    position: absolute;
+    z-index: -1;
+    top: 6px;
+    left: 0;
+
+    display: block;
+
+    width: 100%;
+    height: 100%;
+
+    content: '';
+    pointer-events: none;
+
+    border-radius: inherit;
+    background: #a18eed;
+    box-shadow: 0 0 4px 0 #d7f0ff;
+}
+
+
+.fundraising .img
+{
+    position: absolute;
+    z-index: 2;
+    right: 208px;
+    bottom: -6px;
+
+    display: block;
+
+    width: 664px;
+    max-width: 100%;
+
+    pointer-events: none;
+}
+
+
+.fundraising .bg
+{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+    display: block;
+
+    width: 1215px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    pointer-events: none;
+}
+
+
+.fundraising .title
+{
+    font-family: MuseoSans;
+    font-size: 30px;
+    font-weight: 600;
+
+    position: relative;
+    z-index: 3;
+
+    color: #292d36;
+}
+
+
+.fundraising .title span
+{
+    display: inline-block;
+
+    margin-top: 7px;
+
+    vertical-align: top;
+    text-transform: uppercase;
+
+    background: linear-gradient(90deg, #ba65ba 0%, #702ff4 100%);
+    -webkit-background-clip: text;
+            background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+}
+
+
+.fundraising .link
+{
+    position: relative;
+    z-index: 3;
+}
+
+
+.fundraising .link a
+{
+    font-family: MuseoSans;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 43px;
+
+    display: inline-block;
+
+    height: 57px;
+    padding: 7px 39px;
+
+    vertical-align: top;
+    text-decoration: none;
+
+    color: #fff;
+    border-radius: 27px;
+    background: linear-gradient(90deg, #1cabfe 0%, #5de6ff 100%);
+    box-shadow: 0 12px 16px -5px #d4fffe;
+}
+
+
+
+@media print,
+(max-width: 1439px)
+{
+    .fundraising .data
+    {
+        height: 260px;
+        margin-top: 120px;
+        padding: 0 80px;
+
+        border-radius: 92px;
+    }
+
+
+    .fundraising .link a
+    {
+        font-size: 20px;
+        line-height: 40px;
+
+        height: 52px;
+        padding: 6px 32px;
+    }
+}
+
+
+
+/*---------------
+   Requisites
+---------------*/
+.requisites
+{
+    margin-bottom: 44px;
+}
+
+
+.requisites .block_title
+{
+    font-family: MuseoSans;
+    font-size: 30px;
+    font-weight: 600;
+
+    margin-bottom: 18px;
+
+    color: #292d36;
+}
+
+
+.requisites .data
+{
+    font-family: MuseoSans;
+
+    position: relative;
+
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    padding: 33px;
+
+    border: 3px solid #caebff;
+    background: #fff;
+    box-shadow: 0 0 4px 0 #d7f0ff;
+
+    gap: 10px;
+}
+
+
+.requisites .data .bg
+{
+    position: absolute;
+    z-index: 1;
+    right: 77px;
+    bottom: 18px;
+
+    display: block;
+
+    width: 286px;
+    height: 99px;
+
+    pointer-events: none;
+}
+
+
+.requisites .data > *
+{
+    position: relative;
+    z-index: 3;
+}
+
+
+.requisites .method .name
+{
+    font-size: 22px;
+    font-weight: 600;
+
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    color: #292d36;
+
+    gap: 8px;
+}
+
+
+.requisites .method .icon
+{
+    display: block;
+
+    width: 100px;
+    height: 100px;
+}
+
+
+.requisites .method .name span
+{
+    align-self: center;
+
+    max-width: calc(100% - 108px);
+}
+
+
+.requisites .method .name b
+{
+    font-size: 36px;
+    font-weight: 700;
+
+    margin-left: 4px;
+}
+
+
+.requisites .method .info
+{
+    font-size: 16px;
+    font-weight: 300;
+
+    max-width: 500px;
+    padding-left: 108px;
+
+    color: #000;
+}
+
+
+.requisites .method .info.small
+{
+    max-width: 366px;
+}
+
+
+.requisites .method .info b
+{
+    font-weight: 800;
+}
+
+
+.requisites .qr_code
+{
+    display: flex;
+    flex-direction: column;
+
+    margin-left: auto;
+
+    gap: 2px;
+}
+
+
+.requisites .qr_code .logo
+{
+    display: block;
+
+    width: 161px;
+    max-width: 100%;
+}
+
+
+.requisites .qr_code .img
+{
+    display: block;
+
+    width: 177px;
+    max-width: 100%;
+}
+
+
+
+@media print,
+(max-width: 1439px)
+{
+    .requisites .block_title
+    {
+        font-size: 28px;
+
+        margin-bottom: 20px;
+    }
+
+
+    .requisites .data
+    {
+        gap: 32px;
+    }
+
+
+    .requisites .method .name
+    {
+        font-size: 20px;
+    }
+
+
+    .requisites .method .name b
+    {
+        font-size: 32px;
+    }
+
+
+    .requisites .method .info
+    {
+        font-size: 15px;
+
+        max-width: 468px;
+    }
+}
+
+
+
+/*---------------
    Footer
 ---------------*/
 footer
